@@ -14,10 +14,13 @@ import javax.persistence.Id;
 @Setter
 public class Address {
 
+    @Id
     @GeneratedValue
     private Long id;
 
     private String addr1;
 
     private String addr2;
+
+    private String zipcode;
 }
